@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-<title>JavaScript | GPA Calculator</title>
-</head>
-<body>
-    <div class="container ">
-        <div class="form-container ">
-       <div class="circle__container circle">
-        <form  class="form flow-content">
-            <h2 class="text-center form__title ">GPA Calculator</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>JavaScript | GPA Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="circle__container circle">
+          <form class="form flow-content">
+            <h2 class="text-center form__title">GPA Calculator</h2>
             <div class="form__group">
-                <label for="no_items" class="form__label">Number of Items:</label>
-                <input type="text" name="" id="noItems" class="form__input">
+              <label for="no_items" class="form__label">Number of Items:</label>
+              <input type="text" name="" id="noItems" class="form__input" />
             </div>
             <div class="form__group">
-                <label for="score" class="form__label">Score:</label>
-                <input type="text" name="" id="score" class="form__input">
+              <label for="score" class="form__label">Score:</label>
+              <input type="text" name="" id="score" class="form__input" />
             </div>
             <div class="form__group">
-                <label for="gpa" class="form__label">GPA:</label>
-                <input type="" name="gpa" id="scoreGpa" class="form__input " disabled>
+              <label for="gpa" class="form__label">GPA:</label>
+              <input
+                type=""
+                name="gpa"
+                id="scoreGpa"
+                class="form__input"
+                disabled
+              />
             </div>
             <div class="text-center">
-                <input type="submit" value="Calculate" class="btn btn__primary" id="btnCalc">
-                <input type="reset" value="Reset" class="btn btn__link" id="btnReset">
+              <input
+                type="reset"
+                value="Reset"
+                class="btn btn__link"
+                id="btnReset"
+              />
+              <input
+                type="submit"
+                value="Calculate"
+                class="btn btn__primary"
+                id="btnCalc"
+              />
             </div>
-        </form>
-       </div>
-        <div class="remarks__container flow-content" >
-            <h3 class="remarks__title">Remarks</h3>
-            <p class="remarks__text"></p>
+          </form>
         </div>
-        
+        <div class="remarks__container flow-content">
+          <h3 class="remarks__title">Remarks</h3>
+          <p class="remarks__text"></p>
+        </div>
+      </div>
+      <img src="images/Vector.svg" class="wave-1" alt="" />
+      <img src="images/Vector-1.svg" class="wave-2" alt="" />
+      <img src="images/Vector-2.svg" class="wave-3" alt="" />
     </div>
-    <img src="images/Vector.svg"   class="wave-1" alt="">
-    <img src="images/Vector-1.svg" class="wave-2" alt="">
-    <img src="images/Vector-2.svg" class="wave-3" alt="">
-    </div>
-    
-    
-<script src="scripts/app.js"></script>
-</body>
+
+    <script src="scripts/app.js"></script>
+  </body>
 </html>
