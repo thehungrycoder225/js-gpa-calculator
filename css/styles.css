@@ -61,6 +61,7 @@ body {
 .circle__container {
   position: relative;
   transition: 200ms ease-in-out;
+  width: fit-content;
 }
 
 .circle::before {
@@ -82,7 +83,7 @@ body {
   aspect-ratio: 1/1;
   content: '';
   position: absolute;
-  bottom: -25%;
+  bottom: -15%;
   right: -32%;
   width: 25rem;
   border-radius: 50%;
@@ -228,6 +229,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  z-index: -1;
 }
 
 .wave-1 {
@@ -248,7 +250,7 @@ img {
   z-index: -2;
 }
 
-@media (max-width: 799px) {
+@media (witdh <= 799) or (orientation: portrait) {
   .form-container {
     grid-template-columns: auto;
     place-items: center;
